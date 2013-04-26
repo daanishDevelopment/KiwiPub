@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-//version 1
+
 package com.example.android.notepad;
 
 import android.net.Uri;
@@ -150,5 +150,7 @@ public final class NotePad {
          * <P>Type: INTEGER (long from System.curentTimeMillis())</P>
          */
         public static final String COLUMN_NAME_MODIFICATION_DATE = "modified";
+
+		public static final String COLUMN_NAME_IMAGE = "image";
     }
 }
