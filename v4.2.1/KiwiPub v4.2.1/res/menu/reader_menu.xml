@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >    
+   	    <item android:id="@+id/menu_font_up"
+          android:icon="@drawable/font_up"
+          android:title="@string/font_up"
+          android:showAsAction="always"/> 
+        <item android:id="@+id/menu_font_down"
+            android:icon="@drawable/font_down"
+            android:title="@string/font_down"
+            android:showAsAction="always"/> 
+        <item android:id="@+id/menu_kiwiviewer"
+            android:icon="@drawable/kiwiviewer"
+            android:title="@string/KiwiViewer"
+            android:showAsAction="always" />
+</menu>
